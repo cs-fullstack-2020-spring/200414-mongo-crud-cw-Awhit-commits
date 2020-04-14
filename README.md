@@ -3,6 +3,10 @@
 [Resource - MDN Mongo Info](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose#Connecting_to_MongoDB) |
 [Resource - Mongoose Methods](https://mongoosejs.com/docs/api/model.html)
 
+### Your first name, last name, and single endpoints all go to the same place. Also you single endpoint doesn't need a query param because it's a boolean value and you only want true values. Also the delete mongoose method doesn't need to be passed that `req.body` param. But your schema, other endpoints, and most mongoose methods looks solid.
+
+### Score : 3/5
+
 ### Schema
 Define a Resident Schema with properties :
 - first name (string)
